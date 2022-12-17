@@ -1,0 +1,142 @@
+#headercont img{
+    width: 50px;
+}
+
+#headercont{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    border-radius: 0;
+}
+
+header{
+    background-color: #0B141A;
+    position: sticky;
+    top:0;
+    z-index: 10;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.325);
+    border-radius: 0;
+}
+
+#headercont span{
+    cursor:default;
+}
+
+#headercont div{
+    padding: 0;
+}
+
+#init{
+    display: grid;
+    padding: 100;
+    border-radius: 0;
+    background-color: #030C12;
+    grid-template-columns: repeat(2,1fr);
+}
+
+#fmem{
+    display: grid;
+    align-items: center;
+    justify-content:right;
+}
+
+#init span{
+    font-size: 12px;
+}
+
+#footarea{
+    background-color: #0B141A;
+    border-radius: 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+    justify-items: center;
+    align-content: center;
+}
+
+#footarea div span{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+}
+
+#footarea div{
+    display: grid;
+    background-color: transparent;
+    justify-content: center;
+    align-content: center;
+}
+
+#footarea div img{
+    width: 75px;
+    border-radius: 50%;
+    transition: all 0.2s;
+}
+
+#footarea div img:hover{
+    opacity: 50%;
+    transform: scale(1.2);
+}
+
+#gitlogo{
+    filter: invert(100%);
+}
+
+#centralText{
+    text-align: center;
+}
+
+#final{
+    border-radius: 0;
+    background-color: #030C12;
+    text-align: center;
+}
+
+#final span{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+header div{
+    padding: 15px;
+    display: flex;
+    align-items:center;
+    justify-content: left;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}
+
+header span{
+    margin-left: 5px;
+    font-size: 25px;
+}
+
+body{
+    margin: 0;
+    background-color: #172830;
+    overflow-x: hidden; 
+}
+
+div{
+    border-radius: 15px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 980px){
+
+    #footarea div span{
+        font-family: 'Roboto', sans-serif;
+        font-size: 10px;
+        text-align: center;
+        overflow-wrap: break-word;
+        color: #fff;
+    }
+
+    header span{
+        font-size: 40px;
+    }
+
+}

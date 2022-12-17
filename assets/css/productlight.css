@@ -3,9 +3,6 @@
 }
 
 #init{
-    display:flex;
-    justify-content: center;
-    margin : auto;
     background-color: #005A5C;
 }
 
@@ -17,12 +14,12 @@ body{
     background-color: #F0F2F5;
 }
 
-#dia{
+#day{
     background-color: #F6F6F6;
     color: #000;
 }
 
-#titulo{
+#title{
     color: #000;
 }
 
@@ -30,11 +27,11 @@ body{
     color: #000;
 }
 
-#subtitulo{
+#subtitle{
     color: #008069;
 }
 
-#parraf{
+#paragraph{
     color: #000;
 }
 
@@ -52,7 +49,6 @@ body{
 }
 
 #entrance{
-   
     background-color: #CED0D1;
 }
 
@@ -65,10 +61,10 @@ body{
 }
 
 #body{
-    background-color: #F0F2F5;
+    background-color: transparent
 }
 
-#userParraf{
+#userparagraph{
     color: #000;
 }
 
@@ -87,10 +83,10 @@ body{
     background-color: #008069;
 }
 
-#fecha{
+#date{
     color: #959a9c;
 }
 
-#cuerpo{
+#body{
     color: #000;
 }

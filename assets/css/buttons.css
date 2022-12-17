@@ -1,0 +1,103 @@
+button{
+    border: none;
+    color: white;
+}
+
+#langMode{
+    display: grid;
+    padding: 5px;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+    background-color: #001521;
+    width: 125px;
+}
+
+#esp{
+    cursor: pointer;
+    height: 30px;
+    border-radius: 10px 2px 2px 10px;
+    background-color: #182c39;
+    padding: 5.5px;
+    transition: all 0.2s;
+}
+
+#eng{
+    cursor: pointer;
+    height: 30px;
+    border-radius: 2px 10px 10px 2px;
+    background-color: #030c12;
+    padding: 5.5px;
+    transition: all 0.2s;
+}
+
+#esp:hover{
+    transform: scale(1.2);
+    filter: brightness(200%);
+}
+
+#eng:hover{
+    transform: scale(1.2);
+    filter: brightness(200%);
+}
+
+
+#contMode{
+    display: grid;
+    padding: 5px;
+    grid-template-columns: repeat(2,2fr);
+    gap: 5px;
+    background-color: #001521;
+    width: 125px;
+}
+
+#night{
+    cursor: pointer;
+    height: 30px;
+    border-radius: 10px 2px 2px 10px;
+    background-color: #182c39;
+    /*background-image: url();*/
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    transition: all 0.2s;
+}
+
+#day{
+    cursor: pointer;
+    height: 30px;
+    border-radius: 2px 10px 10px 2px;
+    background-color: #000000;
+    /*background-image: url("../icons/sun.png");*/
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    transition: all 0.2s;
+}
+
+#night:hover{
+    transform: scale(1.2);
+    background-size: 100%;
+    
+    filter: brightness(150%);
+}
+
+#day:hover{
+    transform: scale(1.2);
+    background-size: 100%;
+    filter: brightness(150%);
+}
+
+@media screen and (max-width: 980px){
+    #day{    
+        height: 65px;    
+    }
+    #night{
+        height: 65px;    
+    }
+    #esp{
+        height: 65px;    
+    }
+    #eng{
+        height: 65px;    
+    }
+}
