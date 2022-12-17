@@ -14,6 +14,7 @@ function switchNi() {
 
     buttonDay.style.backgroundColor = "#030c12";
     buttonNi.style.backgroundColor = "#182c39";
+    body.style.backgroundColor="#fffff";
 
     document.getElementById("alter").href = "";
 }
@@ -28,7 +29,7 @@ function switchDay() {
 
     buttonNi.style.backgroundColor = "#030c12";
     buttonDay.style.backgroundColor = "#182c39";
-
+    body.style.backgroundColor="#00000";
     document.getElementById("alter").href = "assets/css/productlight.css";
 
 }
