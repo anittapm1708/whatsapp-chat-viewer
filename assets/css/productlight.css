@@ -1,0 +1,96 @@
+#headercont{
+    background-color: #008069;
+}
+
+#init{
+    display:flex;
+    justify-content: center;
+    margin : auto;
+    background-color: #005A5C;
+}
+
+#area{
+    background-image: url("../images/backgroundlight.png");
+}
+
+body{
+    background-color: #F0F2F5;
+}
+
+#dia{
+    background-color: #F6F6F6;
+    color: #000;
+}
+
+#titulo{
+    color: #000;
+}
+
+#desc{
+    color: #000;
+}
+
+#subtitulo{
+    color: #008069;
+}
+
+#parraf{
+    color: #000;
+}
+
+.oth div{
+    background-color: #fff;
+}
+
+.env div{
+    background-color: #D9FDD3;
+}
+
+#warn{
+    background-color: #F6F6F6;
+    color: #000;
+}
+
+#entrance{
+   
+    background-color: #CED0D1;
+}
+
+#footarea{
+    background-color: #008069;
+}
+
+#final{
+    background-color: #005A5C;
+}
+
+#body{
+    background-color: #F0F2F5;
+}
+
+#userParraf{
+    color: #000;
+}
+
+#contUsers{
+    background-color: #ffffff;
+}
+
+#txtusr{
+    margin-top: 0;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+}
+
+#optionpov{
+    color: #fff;
+    background-color: #008069;
+}
+
+#fecha{
+    color: #959a9c;
+}
+
+#cuerpo{
+    color: #000;
+}

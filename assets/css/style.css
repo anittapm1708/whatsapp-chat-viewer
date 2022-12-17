@@ -1,5 +1,4 @@
 
-
 nav {
     display: inline-flex;
     background-color:rgb(74, 134, 99);
@@ -17,4 +16,48 @@ nav h1 {
 }
 body{
     background-image: url("../images/backgroundlight.png");
+}
+
+
+#init{
+    display: grid;
+    padding: 0;
+    border-radius: 0;
+    background-color: #030C12;
+    grid-template-columns: repeat(2,1fr);
+}
+
+#fmem{
+    display: grid;
+    align-items: center;
+    justify-content:right;
+}
+
+#init span{
+    font-size: 12px;
+}
+
+background-color: #172830;
+    overflow-x: hidden; 
+}
+
+div{
+    border-radius: 15px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 980px){
+
+    #footarea div span{
+        font-family: 'Roboto', sans-serif;
+        font-size: 10px;
+        text-align: center;
+        overflow-wrap: break-word;
+        color: #fff;
+    }
+
+    header span{
+        font-size: 40px;
+    }
+
 }
