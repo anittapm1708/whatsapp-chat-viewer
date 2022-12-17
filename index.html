@@ -1,20 +1,34 @@
 <!DOCTYPE html>
-<html en="lang">
+<html>
     <head>
-
         <meta charset="UTF-8">
-                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="assets\css\style.css">
-        <link rel="stylesheet"type="text/css"href="assets\css\button.css">
-        <link rel="stylesheet"type="text/css"href="assets\css\product.css">
-        <link rel="stylesheet"type="text/css"href="assets\css\productlight.css">
-        <title>WhatsApp Reader</title>
+        <link rel="icon" href="assets/images/iconreader.png">
+        <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/product.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/buttons.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/chats.css" id="chatstyle">
+        <link rel="stylesheet" type="text/css" href="" id="alter">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <title>WhatsApp Chatviewer</title>
     </head>
+
+    <header>
+        <div id="headercont">
+            <div>
+                <img src="assets\images\whatsapp-logo.png" alt="wareader icon" id="logoapp">
+                <span id="wareader">WhatsApp Chatviewer</span>
+            </div>
+            
+            <div id="reload">
+                <div id="reloader" onclick="location.reload(false)"></div>
+            </div>
+        </div>
+    </header>
+
     <body>
-        <nav>
-        <img src="assets\images\whatsapp-logo.png" alt="wareader icon" id="logoapp">
-        <h1>WhatsApp Chat Viewer</h1>
-        </nav>
         <div id="init">
             <div id="fmem">
                 <div id="contMode">
@@ -22,21 +36,47 @@
                     <button id="day" onclick="switchDay()"></button>
                 </div>
             </div>
+        
         </div>
-        <h1 id="title">View your exported chats</h1>
-        <p id="desc">When you add chat in the form of text file it will be exported to in the form of WhatsApp chat .</p>
-        <h2 id="Subtitle">Import the text file here</h2>
-        <fieldset>
+
+        <h1 id="title">View whatsapp chat</h1>
+        <p id="desc">When you add chat in the form of text file it will be exported<br>in the form of whatsapp chat.<br></p>
+        <h2 id="subtitle">Import the text file here</h3>
+
         <div id="entrance">
-            <label for="file" id="labArch">Choose a file</label>
+            <label for="file" id="labArch">Choose a text file</label>
             <input type="file" id="file">
             <div id="configs">
-               
+                <h3 id="txtusr">Sample example</h3>
+                <select name="test" id="optionpov">
                 </select>
             </div>
-            </fieldset>
         </div>
-        <script src="assets/js/visual.js"></script>
+
+        <p id="paragraph">Preview</p>
+        <p id="userparagraph">Users in the conversation:</p>
+
+        <div id="contUsers">
+        </div>
+
+        <div id = "area">
+            <div id="containall">
+                <p id="day">10 September 2022</p>
+            </div>
+
+            <div id="containmsg" class="oth">
+                <div id="msg">
+                    <div id="elements">
+                        <p id="us">User</p>
+                        <p id="body">This will be the body of the text</p>
+                    </div>
+                    <p id="date">10:00 p.m</p>
+                </div>
+            </div>
+        </div>
         
+            
+        <script src="assets/js/program.js"></script>
+        <script src="assets/js/visual.js"></script>
     </body>
-    </html>
+</html>

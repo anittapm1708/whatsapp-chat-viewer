@@ -1,20 +1,330 @@
 
+#reload{
+    height: 40px;
+    width: 40px;
+    display: none;
+    justify-self: center;
+    justify-self: right;
+}
+
+
+
+#reloader{
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #76a872;
+    background-image: url("https://cdn.iconscout.com/icon/free/png-256/reload-1912200-1617669.png");
+    background-size: 80%;
+    background-position: center;
+    background-repeat:no-repeat;
+    transition: transform 1s, background-color 0.2s;
+}
+
+#reloader:hover{
+    cursor: pointer;
+    background-color: #9cdf97;
+    transform: rotate(100deg);
+}
+
 #desc{
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    font-size: 20px;
-    color: rgb(19, 18, 18);
+    color: rgb(202, 195, 195);
 }
+
+#paragraph{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+#userparagraph{
+    font-family: 'Roboto', sans-serif;
+    display: none;
+    text-align: center;
+    color: rgb(224, 221, 221);
+}
+
+
+#logoapp{
+    width: 40px;
+}
+
 #title{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
-    font-size: 50px;
+    color: rgb(217, 209, 209);
 }
-#Subtitle{
-    font-family: 'Roboto',sans-serif;
+
+#area{
+    background-image: url("../images/background.png");
+    background-repeat: repeat;
+    background-size: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 25px;
+    transition: opacity 0.2s;
+}
+
+#area:first-child{
+    margin-top: 0;
+}
+
+#containall{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+#body{
+    display: none;
+}
+
+#containall p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.date{
+    position: sticky;
+    z-index: 10;
+    top:80px;
+}
+
+#day{
+    display: inline-block;
+    align-content: center;
+    justify-content:center;
+    color: #fff;
+    border-radius: 20px;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background-color: #1c272d;
 }
+
+#msg{
+    opacity: 0;
+}
+
+#warn{
+    color: rgb(255, 255, 255);
+    border-radius: 7px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background-color: #202C33;
+    opacity: 0.8;
+}
+
+#subtitle{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #b4ffae;
+}
+
 #entrance{
-text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #0B141A;
+    border-radius: 0;
+    text-align: center;
+}
+
+#carrowasa{
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+#carrowasa img{
+    max-width: 40%;
+    border-radius: 10px;
+}
+
+#contUsers{
+    display: none;  
+    background-color: #0B141A;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20px;
+}
+
+#user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #b4ffae;
+}
+
+#image{
+    background-image: url("https://cdn2.iconfinder.com/data/icons/font-awesome/1792/user-512.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    float: left;
+}
+
+#user span{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: right;
+    text-align: center;
+    overflow-wrap: break-word;
+}
+
+#file{
+    display: none;
+}
+
+#entrance label{
+    display: block;
+    padding: 10px;
+    background-color: #b4ffae;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 10px;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/1092/1092216.png");
+    background-repeat: no-repeat;
+    background-position:5%;
+    background-size: 5%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    transition: background-color 0.1s;
+}
+
+#entrance label:active{
+    background-color: #76a872;
+}
+
+#txtusr{
+    margin-top: 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+#optionpov{
+    text-align:center;
+    color: #000;
+    cursor: pointer;
+    min-width: 150px;
+    min-height: 25px;
+    border-radius: 10px;
+    background-color: #B4FFAE;
+}
+
+#configs{
+    display: none;
+}
+
+@media screen and (max-width: 980px){
+    #day{
+        font-size: 30px;
+        min-width: 250px;
+    }
+
+    #warn{
+        font-size: 20px;
+    }
+
+    .date{
+        top:125px;
+    }
+
+    #reload{
+        height: 95px;
+        width: 95px;
+        padding: 5px;
+    }
+
+    #reloader{
+        width: 60px;
+        height: 60px;
+    }
+
+    #contUsers{
+        margin-right: 30px;
+        margin-left: 30px;    
+    }
+
+    #user span {
+        font-size: 20px;
+    }
+
+    #imagen{
+        width: 35px;
+        height: 35px;
+    }
+
+    #title{
+        margin-right: 30px;
+        margin-left: 30px;
+        font-size: 55px;
+    }
+
+    #logoapp{
+        width: 75px;
+    }
+
+    #desc{
+        font-size: 12px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    #paragraph{
+        font-size: 14px;
+    }
+
+    #entrance label{
+        margin-left: 20%;
+        margin-right: 20%;
+        background-size: 6%;
+    }
+
+    #optionpov{
+        font-size: 20px;
+        min-width: 250px;
+        min-height: 50px;
+    }
+
+    #area{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #msg p{
+        font-size: 30px;
+    }
+} 
+
+@media screen and (min-width: 1400px){
+    #msg p{
+        font-size: 14px;
+    }
+
+    #area{
+        padding-left: 250px;
+        padding-right: 250px;
+    }
 }
