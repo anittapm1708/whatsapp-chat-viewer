@@ -1,10 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html en="lang">
     <head>
+
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="assets\css\style.css">
         <title>WhatsApp Reader</title>
     </head>
     <body>
-        <h1>WhatsApp chat viewer</h1>
+        <nav>
+        <img src="assets\images\whatsapp-logo.png" alt="wareader icon" id="logoapp">
+        <h1>WhatsApp Chat Viewer</h1>
+        </nav>
+        <div id="init">
+            <div id="fmem">
+                <div id="contMode">
+                    <button id="night" onclick="switchNight()"></button>
+                    <button id="day" onclick="switchDay()"></button>
+                </div>
+            </div>
+        </div>
+        <h1 id="title">View your exported chats</h1>
+        <p id="desc">When you add chat in the form of text file it will be exported to in the form of WhatsApp chat .</p>
+        <h2 id="Subtitle">Import the text file here</h2>
+        
+        
     </body>
     </html>
