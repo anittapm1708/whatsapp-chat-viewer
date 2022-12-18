@@ -12,7 +12,7 @@ var eng = true;
 var nmode = true;
 var msgChar = 0;
 
-const months = ["January", "February", "March", "April", "May", "June", "July","August","September","Octuber","November","December"];
+const months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
 
 let warnings = ["Messages and calls are","left","You're no longer","changed to", "You removed","Your security code with",
                 "added","changed this group's","created group","Your'e now an admin","You created group","was added",
@@ -164,7 +164,7 @@ function AddendumMessages(user,bodyMessage,hour,line){
         const data = document.createElement("p");
           var year = parseInt(line[0].split('/')[2].substring(0,line[0].split('/')[2].length - 1));
             if(year < 2000) year += 2000;
-            data.textContent = months[line[0].split('/')[0] - 1] +" "+line[0].split('/')[1] +", " + year;
+            data.textContent = months[line[0].split('/')[1] - 1] +" "+line[0].split('/')[0] +", " + year;
     
         data.id = "day";
 
