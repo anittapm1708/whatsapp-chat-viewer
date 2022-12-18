@@ -1,36 +1,31 @@
-<div align="center">
-  <img src="assets/images/iconreader.png" alt = "wareader" width ="128px">
-  <p>Now with POV messages</p>
-  <h1>WhatsApp Reader</h1>
-  <p>Interpreat the exported chat from WhatsApp to something readable.</p><br>
-</div>
-  
-# How to export a chat?
-You can read the [FAQ in the WA page for export a chat](https://faq.whatsapp.com/196737011380816/?helpref=uf_share).
+# whatsapp-chat-viewer
 
-# How to use WA Reader
-Only need the `.txt` of the chat and upload in the entry of the site. after that, you can see all the chat like WhatsApp style.
+A website that can convert an exported Whatsapp chat text file into a real Whatsapp conversation that could read this file and arrange the conversation in the way we see inside WhatsApp , so that we can read it easily like a conversation.
 
-# Issues 
-- Laggy when you treat to show at least 40k of messages.
+A website that can convert an exported whatsapp chat text file into a real whatsapp conversation that could
+read this file and arrange the conversation in the way we see inside WhatsApp , so that we can read it easily
+like a conversation.
+your logs are not sent or stored any where 
 
-# Preview
-You can see [WhatsApp Reader](https://davidquintr.github.io/whatsapp-reader.github.io/) just here.
+We have two types of chat conversations:
+1.Individual chat
+2.Group Chat
 
-<div align="center">
-    <br>
-    <img src="assets/images/davidquint.png" width="96">
-    <p>Made by DavidQuint</p>
-</div>
+We can convert the exported text files of both these chats to a real conversation by using our website.
+Our website helps in saving a lot of storage space. Usually storing the chats in whatsapp itself requires more
+storage space. By saving the chats as text files it consumes only less space. So we can use this website if we
+need to view this chat as a real conversation for easy understanding.
+This website can be helpful while changing your devices, the text file can be imported from drive/mail to our
+website to view it as a real conversation
 
-# _Changelogs_
+# BENEFITS
+● This will make the chats more readable.
+● Easy to manage
+● Time-saving
+● Save the chat for future reference
+● Easy Storage - less space required
 
-## **First release v1.0.0**
-
-_Includes all the improvements for the basic messages._
-
-- Multiline messages
-- POV messages
-- Different colors for all users in the conversation
-- Showing all the warnings
-- Datetime showing in the top of view.
+# How to use
+### how to export your chat
+- [android](https://faq.whatsapp.com/1180414079177245/?locale=en_US&cms_platform=android)
+- [iPhone](https://faq.whatsapp.com/iphone/chats/how-to-back-up-to-icloud/)

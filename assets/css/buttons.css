@@ -3,44 +3,6 @@ button{
     color: white;
 }
 
-#langMode{
-    display: grid;
-    padding: 5px;
-    grid-template-columns: repeat(2,1fr);
-    gap: 5px;
-    background-color: #001521;
-    width: 125px;
-}
-
-#esp{
-    cursor: pointer;
-    height: 30px;
-    border-radius: 10px 2px 2px 10px;
-    background-color: #182c39;
-    padding: 5.5px;
-    transition: all 0.2s;
-}
-
-#eng{
-    cursor: pointer;
-    height: 30px;
-    border-radius: 2px 10px 10px 2px;
-    background-color: #030c12;
-    padding: 5.5px;
-    transition: all 0.2s;
-}
-
-#esp:hover{
-    transform: scale(1.2);
-    filter: brightness(200%);
-}
-
-#eng:hover{
-    transform: scale(1.2);
-    filter: brightness(200%);
-}
-
-
 #contMode{
     display: grid;
     padding: 5px;
