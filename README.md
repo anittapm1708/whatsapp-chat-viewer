@@ -2,10 +2,7 @@
 
 A website that can convert an exported Whatsapp chat text file into a real Whatsapp conversation that could read this file and arrange the conversation in the way we see inside WhatsApp , so that we can read it easily like a conversation.
 
-A website that can convert an exported whatsapp chat text file into a real whatsapp conversation that could
-read this file and arrange the conversation in the way we see inside WhatsApp , so that we can read it easily
-like a conversation.
-your logs are not sent or stored any where 
+Your logs are not sent or stored any where 
 
 We have two types of chat conversations:
 1.Individual chat
